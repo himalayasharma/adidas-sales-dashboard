@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a>
-    <img src="readme-assets/DALL.E-panda-dashboard-2.png" alt="Logo">
+    <img src="readme-assets/DALL.E-panda-dashboard-2.png" width="224" height="224" alt="Logo">
   </a>
 
   <h1 align="center">Adidas Sales BI Dashboard</h1>
