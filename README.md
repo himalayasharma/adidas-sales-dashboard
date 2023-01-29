@@ -64,6 +64,13 @@ I'll give a brief description of each dashboard component/plot and insights gain
 
     Additionally, the QuickForest algorithm, which is integrated within QuickSight, generates forecasts. The projected total sales for the month of January 2022 are estimated to be $118 million.
 
+2. Donut chart
+
+    ![alt text](readme-assets/qs-db-donut-chart.png)
+
+    The graph displays the distribution of total sales among retailers from 2020 to 2021. Westgear recorded the highest sales, accounting for 27% of the total, followed closely by Footlocker with 24%. On the other hand, Walmart had the smallest share, accounting for 8% of total sales.
+
+
 License
 ------------
 Distributed under the MIT License. See `LICENSE.txt` for more information.
