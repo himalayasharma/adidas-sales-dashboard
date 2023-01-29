@@ -10,7 +10,7 @@
 
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/himalayasharma/adidas-sales-dashboard?style=social"> <img alt="GitHub forks" src="https://img.shields.io/github/forks/himalayasharma/adidas-sales-dashboard?style=social"> <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/himalayasharma/adidas-sales-dashboard"> <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/himalayasharma/adidas-sales-dashboard">
 
-Adidas Sales BI Dashboard.
+A BI dashboard desgined using AWS QuickSight by leveraging Adidas's US sales data consolidated in an AWS RDS PostgreSQL database.
  
 Project Organization
 ------------
