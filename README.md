@@ -41,7 +41,7 @@ A brief overview of steps to reproduce the project is as follows:
 - Create a publicly accessible [AWS Relational Database Service (RDS)](http://surl.li/epsnp) instance with [PostgreSQL](https://www.postgresql.org/) database engine, and restrict access to your personal IP address by adjusting the inbound rules in the security group.
 - Connect AWS RDS instance to [pgAdmin](https://www.pgadmin.org/) on local system using the instance server endpoint and credentials.
 - Import the PostgreSQL dump of the Adidas sales data into a newly created empty database on AWS RDS.
-- Run filtering and analysis queries, and adjust data types as necessary (e.g. converting `VARCHAR` to `FLOAT` and `INT`) on [AWS QuickSight](https://aws.amazon.com/quicksight/).
+- Run filtering and analysis queries, and adjust data types as necessary (e.g. converting `VARCHAR` to `FLOAT` and `INT`) on the imported database table.
 - On AWS, restrict public access to the RDS instance and create 2 security groups, one for RDS and the other for QuickSight. Enable bi-directional traffic flow between the two services by modifying inbound and outbound rules in both security groups. Finally, associate the RDS security group with the RDS instance.
 - On AWS QuickSight, log in and create a VPC connection to the RDS instance for private communication. By setting up security groups on AWS and a VPC connection on QuickSight, back-and-forth communication between the two will be facilitated within the VPC.
 
