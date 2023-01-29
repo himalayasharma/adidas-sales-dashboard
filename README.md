@@ -75,7 +75,13 @@ I'll give a brief description of each dashboard component/plot and insights gain
     ![alt text](readme-assets/qs-db-map.png)
 
     The map illustrates the distribution of product units sold across various states. New York recorded the highest number of units sold, followed by California and Texas. Conversely, Nebraska had the lowest number of units sold.
-    
+
+4. KPI
+
+    ![alt text](readme-assets/qs-db-kpi.png)
+
+    This key performance indicator showcases the growth in sales from 2020 to 2021. The sales in 2020 were $182 million, which rose to $718 million in 2021, resulting in an increase of $536 million.
+
 License
 ------------
 Distributed under the MIT License. See `LICENSE.txt` for more information.
