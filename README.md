@@ -44,7 +44,14 @@ A brief overview of steps to reproduce the project is as follows:
 - Run filtering and analysis queries, and adjust data types as necessary (e.g. converting `VARCHAR` to `FLOAT` and `INT`) on [AWS QuickSight](https://aws.amazon.com/quicksight/).
 - On AWS, restrict public access to the RDS instance and create 2 security groups, one for RDS and the other for QuickSight. Enable bi-directional traffic flow between the two services by modifying inbound and outbound rules in both security groups. Finally, associate the RDS security group with the RDS instance.
 - On AWS QuickSight, log in and create a VPC connection to the RDS instance for private communication. By setting up security groups on AWS and a VPC connection on QuickSight, back-and-forth communication between the two will be facilitated within the VPC.
-  
+
+QuickSight Dashboard
+------------
+
+This a screenshot of the dashboard:
+
+![alt text](readme-assets/aws-quicksight-dashboard.png)
+
 License
 ------------
 Distributed under the MIT License. See `LICENSE.txt` for more information.
