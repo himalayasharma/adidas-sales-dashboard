@@ -70,7 +70,12 @@ I'll give a brief description of each dashboard component/plot and insights gain
 
     The graph displays the distribution of total sales among retailers from 2020 to 2021. Westgear recorded the highest sales, accounting for 27% of the total, followed closely by Footlocker with 24%. On the other hand, Walmart had the smallest share, accounting for 8% of total sales.
 
+3. Map
 
+    ![alt text](readme-assets/qs-db-map.png)
+
+    The map illustrates the distribution of product units sold across various states. New York recorded the highest number of units sold, followed by California and Texas. Conversely, Nebraska had the lowest number of units sold.
+    
 License
 ------------
 Distributed under the MIT License. See `LICENSE.txt` for more information.
