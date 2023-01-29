@@ -10,7 +10,7 @@
 
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/himalayasharma/adidas-sales-dashboard?style=social"> <img alt="GitHub forks" src="https://img.shields.io/github/forks/himalayasharma/adidas-sales-dashboard?style=social"> <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/himalayasharma/adidas-sales-dashboard"> <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/himalayasharma/adidas-sales-dashboard">
 
-A BI dashboard desgined using AWS QuickSight by leveraging Adidas's US sales data consolidated in an AWS RDS PostgreSQL database.
+A BI dashboard desgined using AWS QuickSight by leveraging Adidas US sales data consolidated in an AWS RDS PostgreSQL database.
  
 Project Organization
 ------------
@@ -51,6 +51,18 @@ QuickSight Dashboard
 This a screenshot of the dashboard:
 
 ![alt text](readme-assets/aws-quicksight-dashboard.png)
+
+I'll give a brief description of each dashboard component/plot and insights gained from it:
+
+1. Line graph
+
+    ![alt text](readme-assets/qs-db-line-graph.png)
+
+    The graph showcases the sales performance of various product lines from 2020 to 2021. It is evident that "Men's Street Footwear" (represented by the orange line) was the top-performing product line, while "Women's Street Footwear" (represented by the magenta line) had the lowest sales.
+
+    ![alt text](readme-assets/qs-db-line-graph-1.png)
+
+    Additionally, the QuickForest algorithm, which is integrated within QuickSight, generates forecasts. The projected total sales for the month of January 2022 are estimated to be $118 million.
 
 License
 ------------
