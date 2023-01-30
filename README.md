@@ -86,6 +86,17 @@ I'll give a brief description of each dashboard component/plot and insights gain
 
     ![alt text](readme-assets/qs-db-insights.png)
 
+References
+------------
+* [Authorizing connections from Amazon QuickSight to Amazon RDS DB instances](https://docs.aws.amazon.com/quicksight/latest/user/enabling-access-rds.html)
+* [Amazon QuickSight](https://www.youtube.com/@AmazonQuickSight)
+* [data.world](https://data.world/)
+
+
+Acknowledgements
+------------
+* [Stella Abigail](https://data.world/stellabigail/)
+
 
 License
 ------------
